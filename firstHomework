@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class firstHomework {
+    public static void main(String[] args) {
+        perimeter();
+        face();
+    }
+
+
+    public static void perimeter() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("a: ");
+        int a = scan.nextInt();
+        System.out.println("b: ");
+        int b = scan.nextInt();
+        int perimeter = 2 * a + 2 * b;
+        System.out.println(perimeter);
+    }
+
+    public static void face() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("a: ");
+        int a = scan.nextInt();
+        System.out.println("b: ");
+        int b = scan.nextInt();
+        int face = a * b;
+        System.out.println(face);
+    }
+}
