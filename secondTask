@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class secondHomework {
+    public static void main(String[] args) {
+        month();
+
+    }
+    public static void month(){
+        Scanner scan = new Scanner(System.in);
+        String month = scan.nextLine();
+        if (month.equals("Януари")) {
+            System.out.println("Януари има 31 дни");
+        } else if (month.equals("Февруари")) {
+            System.out.println("Февруари има 28 дни");
+        } else if (month.equals("Март")) {
+            System.out.println("Март има 31 дни");
+        } else if (month.equals("Април")) {
+            System.out.println("Април има 30 дни");
+        } else if (month.equals("Май")) {
+            System.out.println("Май има 31 дни");
+        } else if (month.equals("Юни")) {
+            System.out.println("Юни има 30 дни");
+        } else if (month.equals("Юли")) {
+            System.out.println("Юли има 31 дни");
+        } else if (month.equals("Август")) {
+            System.out.println("Август има 31 дни");
+        } else if (month.equals("Септември")) {
+            System.out.println("Септември има 30 дни");
+        } else if (month.equals("Октомрви")) {
+            System.out.println("Октомрви има 31 дни");
+        } else if (month.equals("Ноември")) {
+            System.out.println("Ноември има 30 дни");
+        } else if (month.equals("Декември")) {
+            System.out.println("Декември има 31 дни");
+        }
+    }
+}
